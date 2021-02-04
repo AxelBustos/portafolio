@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/fontello.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b7f4116b45.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    
+    <title>Portefolio Bustos Axel</title>
+</head>
+<body>
+    <header class="header">
+       <input type="checkbox" id="btn-menu">
+       <label for="btn-menu" class="icon-menu"></label>  
+        <nav class="menu">
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mi</a></li>
+                <li><a href="#conocimientos">Conocimientos</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contactame">Contactame</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <div class="contenido">
+        <div class="acerca-mi" for="btn-menu" id="acerca-de-mi">
+            <h3>Bustos Axel</h3>
+            <p class="presentacion">Técnico Superior en Desarrolo de Software</p>
+            <p class="presentacion">Desarrollo Web Front-End</p>
+        </div>
+        <div class="conocimientos" id="conocimientos">
+            <h5>Mis conocimientos</h5>
+            <div class="iconos">
+                   <div><p><i class="fab fa-html5"></i></p><h4>HTML</h4></div>
+                   <div><p><i class="fab fa-css3-alt"></i></p><h4>CSS3</h4></div>
+                   <div><p><i class="fab fa-js-square"></i></p><h4>JAVASCRIPT </h4></div> 
+                   <div><p><i class="fab fa-react"></i></p><h4>REACT</h4></div>
+                   <div><p><i class="fab fa-php"></i></p><h4>PHP7</h4></div>
+                   <div><p><i class="fab fa-python"></i></p><h4>PYTHON</h4></div> 
+                   <div><p><i class="fab fa-github"></i></p><h4>GITHUB</h4></div>
+                   <div><p><i class="fab fa-gitlab"></i></p><h4>GITLAB</h4></div>
+                   <div><p><i class="fas fa-database"></i></p><h4>MYSQL</h4></div>
+            
+            </div>   
+        </div>
+        <hr>
+        <div class="proyectos" id="proyectos">
+            <h5>Proyectos</h5>
+            <div class="grid-proyectos">
+                <div class="galeria"><img src="img/Veterinaria-REACT.png"class="imagen"><p class="descrip-galeria">Sistema web realizado en REACT JS para el control de turnos de una veterinaria.</p><a href="https://consultacitas.netlify.app/" target="_BLANK" class="info">Ver informacion</a></div>
+                <div class="galeria"><img src="img/ABM-PYTHON.png"class="imagen"><p class="descrip-galeria">Sistema de escritorio para un control de stock realizado con Python, Tkinter y SQL.</p><a href="https://github.com/AxelBustos/ABM-PY" target="_BLANK" class="info">Ver informacion</a></div>
+                <div class="galeria"><img src="img/Evento-Registro-PHP.png"class="imagen"><p class="descrip-galeria">Sistema para registro de espectador a evento web donde también se puede visualizar quien asistirá.<br>El sistema está hecho con HTML5, CSS3, JAVASCRIPT, y MYSQL</p><a href="https://github.com/AxelBustos/virtual-assist" target="_BLANK" class="info">Ver informacion</a></div>
+            </div>
+        </div>
+        <div class="overlay" id="overlay">
+            <div class="cont-img">
+                <button id="btn-cerrar"><i class="fas fa-times"></i></button>
+                <img src="" alt="">
+            </div>
+            
+        </div>
+        <hr>
+        
+        <div class="contactame" id="contactame">
+            <h5>Contactame</h5>
+            <a href="https://wa.link/pnvp0p" target="_BLANK" class="fab fa-whatsapp"></a>
+            <a href="https://www.linkedin.com/in/axelbustos" target="_BLANK" class="fab fa-linkedin-in"></a>
+            <a href="mailto:axel.iva14@gmail.com" class="fas fa-envelope-square"></a>
+        </div>
+
+    <footer>
+        <div class="tiempo">
+            <p>Copyright &copy;  2021<br>Sitio web diseñeado por Axel Bustos</p>
+    </footer>
+    <script src="file.js"></script>
+</body>
+</html>
