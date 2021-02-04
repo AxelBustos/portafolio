@@ -155,16 +155,18 @@ h5 {
     }
     .grid-proyectos{   
         padding: 20px;
-        grid-gap: 10px;
+        grid-gap: 30px;
+        grid-template-columns: 1fr;
     }
     .info{
-        margin-top: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
         text-decoration: none;
         text-align: center;
         display: inline-block;
         background-color: #2E353A;
         color: #DEE4EA;
-        width: 90px;
+        width: 150px;
         padding: 10px;
         border-radius: 5px;
         font-size: 13px;
@@ -174,12 +176,13 @@ h5 {
         
    }
    #btn-cerrar{ right: 0px;}
-    
+      
 }
 
 #btn-menu:checked ~ .menu{
     transform: translateX(0%);
 }
+
 
 /*Query para pc*/
 @media (min-width:901px){
